@@ -1,57 +1,9 @@
-body {
-    background-color: beige;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-    color: #555;
-}
-
-input, textarea, button {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.red-button {
-    background-color: red;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.red-button:hover {
-    background-color: darkred;
-}
-
-img {
-    max-width: 100%;
-    margin-top: 10px;
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
