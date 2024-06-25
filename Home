@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Generation Form</title>
+</head>
+<body>
+    <form id="pdfForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="button" onclick="generateAndSendPDF()">Generate PDF and Send</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
